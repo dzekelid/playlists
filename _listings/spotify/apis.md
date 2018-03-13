@@ -34,7 +34,7 @@ apis:
   tags: Playlists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/playlists/master/_listings/spotify/users-user-id-playlists-playlist-id-tracks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/playlists/master/_listings/spotify/users-user-id-playlists-playlist-id-tracks-post.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
