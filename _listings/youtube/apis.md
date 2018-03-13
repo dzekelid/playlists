@@ -26,7 +26,7 @@ apis:
   tags: Playlists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/playlists/master/_listings/youtube/playlists-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/playlists/master/_listings/youtube/playlists-parameters.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
