@@ -34,7 +34,7 @@ apis:
   tags: Playlists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/spotify/users-user-id-playlists-playlist-id-followers-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/spotify/users-user-id-playlists-playlist-id-followers-put.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
