@@ -8,120 +8,128 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundc
 x-kinRank: "9"
 x-alexaRank: "112"
 tags: Playlists
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Sound Cloud Get Users Playlists
-  x-api-slug: sound-cloud
+- name: Sound Cloud - Get Users Playlists
+  x-api-slug: usersuser-idplaylists-json-get
   description: Returns a collection of playlists created by user with user id
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
   humanURL: http://soundcloud.com
-  baseURL: https://api.soundcloud.com////users/{user_id}/playlists.json
-  tags: Users,Playlists
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/usersuser-idplaylists-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/usersuser-idplaylists-json-get-openapi.md
-- name: Sound Cloud Get Me Playlists
-  x-api-slug: sound-cloud
+- name: Sound Cloud - Get Me Playlists
+  x-api-slug: meplaylists-json-get
   description: Returns a collection of playlists created by the logged-in user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
   humanURL: http://soundcloud.com
-  baseURL: https://api.soundcloud.com////me/playlists.json
-  tags: Me,Playlists
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/meplaylists-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/meplaylists-json-get-openapi.md
-- name: Sound Cloud Get Playlists
-  x-api-slug: sound-cloud
+- name: Sound Cloud - Get Playlists
+  x-api-slug: playlists-json-get
   description: Returns a collection of playlists
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
   humanURL: http://soundcloud.com
-  baseURL: https://api.soundcloud.com////playlists.json
-  tags: Playlists
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/playlists-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/playlists-json-get-openapi.md
-- name: Sound Cloud Get Playlists Playlist
-  x-api-slug: sound-cloud
+- name: Sound Cloud - Get Playlists Playlist
+  x-api-slug: playlistsplaylist-id-json-get
   description: Returns a playlist by playlist id
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
   humanURL: http://soundcloud.com
-  baseURL: https://api.soundcloud.com////playlists/{playlist_id}.json
-  tags: Playlists,Playlist
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/playlistsplaylist-id-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/playlistsplaylist-id-json-get-openapi.md
-- name: Sound Cloud Get Users Playlists. Format
-  x-api-slug: sound-cloud
+- name: Sound Cloud - Get Users Playlists. Format
+  x-api-slug: usersuser-idplaylists-format-get
   description: Returns a collection of playlists created by user with user id
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
   humanURL: http://soundcloud.com
-  baseURL: https://api.soundcloud.com////users/{user_id}/playlists.{format}
-  tags: Users,Playlists,,Format
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/usersuser-idplaylists-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/usersuser-idplaylists-format-get-openapi.md
-- name: Sound Cloud Get Me Playlists. Format
-  x-api-slug: sound-cloud
+- name: Sound Cloud - Get Me Playlists. Format
+  x-api-slug: meplaylists-format-get
   description: Returns a collection of playlists created by the logged-in user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
   humanURL: http://soundcloud.com
-  baseURL: https://api.soundcloud.com////me/playlists.{format}
-  tags: Me,Playlists,,Format
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/meplaylists-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/meplaylists-format-get-openapi.md
-- name: Sound Cloud Get Playlists. Format
-  x-api-slug: sound-cloud
+- name: Sound Cloud - Get Playlists. Format
+  x-api-slug: playlists-format-get
   description: Returns a collection of playlists
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
   humanURL: http://soundcloud.com
-  baseURL: https://api.soundcloud.com////playlists.{format}
-  tags: Playlists,,Format
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/playlists-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/playlists-format-get-openapi.md
-- name: Sound Cloud Get Playlists Playlist . Format
-  x-api-slug: sound-cloud
+- name: Sound Cloud - Get Playlists Playlist . Format
+  x-api-slug: playlistsplaylist-id-format-get
   description: Returns a playlist by playlist id
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
   humanURL: http://soundcloud.com
-  baseURL: https://api.soundcloud.com////playlists/{playlist_id}.{format}
-  tags: Playlists,Playlist,,,Format
+  baseURL: https://api.soundcloud.com//
+  tags: Audio, Music, Social, Sound, Audiossssssss, My API Stack, API LIfeyclessss,
+    Stack Network, Stack, Mobile, Technology, internet, General Data, Service API,
+    Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/playlistsplaylist-id-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/playlistsplaylist-id-format-get-openapi.md
-- name: Sound Cloud
-  x-api-slug: sound-cloud
-  description: SoundCloud is a music and podcast streaming platform that lets you
-    listen to millions of songs from around the world, or upload your own. Start listening
-    now!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
-  humanURL: http://soundcloud.com
-  baseURL: https://api.soundcloud.com//
-  tags: Playlists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/playlists/master/_listings/soundcloud/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://smartbear.software.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://soundcloud.stack.network
 - type: x-base
   url: https://api.soundcloud.com
 - type: x-blog

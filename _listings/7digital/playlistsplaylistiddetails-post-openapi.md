@@ -48,6 +48,22 @@ paths:
       tags:
       - Playlists
   playlists/{playlistId}:
+    'delete ':
+      summary: playlists/{playlistId}
+      description: Deletes the playlist at {playlistId}. The playlist can only be
+        deleted by its owner, i.e. oauth_token representing the user has to be provided.
+      operationId: playlistsplaylistid
+      x-api-path-slug: playlistsplaylistid-delete
+      parameters:
+      - ~
+      - in: query
+        name: oauth_token
+        description: Users OAuth access token
+      responses:
+        200:
+          description: OK
+      tags:
+      - Playlists
     'get ':
       summary: playlists/{playlistId}
       description: Returns playlist details and track listing. Access to private playlists
@@ -86,6 +102,26 @@ paths:
       tags:
       - Playlists
       - Details
+  playlists/{playlistId}/tracks/{playlisttrackid}:
+    'delete ':
+      summary: playlists/{playlistId}/tracks/{playlisttrackid}
+      description: Removes the specified track {playlisttrackid} from the specified
+        playlist at {playlistId}.  Tracks can only be removed by the playlist owner,
+        i.e. oauth_token representing the user has to be provided.
+      operationId: playlistsplaylistidtracksplaylisttrackid
+      x-api-path-slug: playlistsplaylistidtracksplaylisttrackid-delete
+      parameters:
+      - ~
+      - in: query
+        name: oauth_token
+        description: Users OAuth access token
+      responses:
+        200:
+          description: OK
+      tags:
+      - Playlists
+      - Tracks
+      - Playlisttrackid
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
